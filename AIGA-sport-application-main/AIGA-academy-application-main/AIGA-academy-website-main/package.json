@@ -4,7 +4,8 @@
 	"author": "Nurlan Aligaziz <aligaziznu@gmail.com>",
 	"license": "MIT"
 
-}         "scripts": {
+}         
+	"scripts": {
 	    "start": "node app/app.js",
 	    "db:migrate": "node migrator/start.js"
 	  },
@@ -15,7 +16,7 @@
 	    "socket.io": "^4.6.0",
 	    "jsonwebtoken": "^9.0.0",
 	    "cors": "^2.8.5"
-	  }
+	  },
 	
 	"devDependencies": {
 		"@eslint/js": "^9.10.0",
