@@ -4,12 +4,11 @@
 	"author": "Nurlan Aligaziz <aligaziznu@gmail.com>",
 	"license": "MIT",
 	"scripts": {
-		"scripts": {
-  "start": "node app/app.js",
-  "db:migrate": "node migrator/start.js",
-  "deploy": "node app/app.js"
-  "lint": "eslint",
-  "lint:fix": "eslint --fix ."
+	  "start": "node app/app.js",
+	  "db:migrate": "node migrator/start.js",
+	  "deploy": "node app/app.js"
+	  "lint": "eslint",
+	  "lint:fix": "eslint --fix ."
 	},
 	"dependencies": {
 		"bcrypt": "^5.0.0",
