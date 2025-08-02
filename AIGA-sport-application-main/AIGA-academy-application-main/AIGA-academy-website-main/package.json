@@ -1,4 +1,4 @@
-{
+{{
 	"name": "AIGA-academy-application",
 	"version": "1.0.2",
 	"author": "Nurlan Aligaziz <aligaziznu@gmail.com>",
@@ -16,7 +16,7 @@
 	    "jsonwebtoken": "^9.0.0",
 	    "cors": "^2.8.5"
 	  }
-	}
+	
 	"devDependencies": {
 		"@eslint/js": "^9.10.0",
 		"cross-env": "^7.0.3",
