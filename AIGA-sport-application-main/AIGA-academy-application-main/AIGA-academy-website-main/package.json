@@ -1,36 +1,37 @@
 {
-	"name": "AIGA-academy-application",
-	"version": "1.0.2",
-	"author": "Nurlan Aligaziz <aligaziznu@gmail.com>",
-	"license": "MIT"
-
-}         
-	"scripts": {
-	    "start": "node app/app.js",
-	    "db:migrate": "node migrator/start.js"
-	  },
-	  "dependencies": {
-	    "express": "^4.18.2",
-	    "sequelize": "^6.29.0",
-	    "mysql2": "^3.2.0",
-	    "socket.io": "^4.6.0",
-	    "jsonwebtoken": "^9.0.0",
-	    "cors": "^2.8.5"
-	  },
-	
-	"devDependencies": {
-		"@eslint/js": "^9.10.0",
-		"cross-env": "^7.0.3",
-		"eslint": "^9.10.0",
-		"globals": "^15.9.0",
-		"nodemon": "^3.1.5"
-	},
-	"description": "Node.js Express REST API boilerplate with JWT Authentication and support for MySQL and PostgreSQL.",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/MarkKhramko/nodejs-express-jwt.git"
-	},
-	"homepage": "https://github.com/MarkKhramko/nodejs-express-jwt#readme",
-	"bugs": {
-		"url": "https://github.com/MarkKhramko/nodejs-express-jwt/issues"
-	}
+  "name": "AIGA-academy-application",
+  "version": "1.0.2",
+  "author": "Nurlan Aligaziz <aligaziznu@gmail.com>",
+  "license": "MIT",
+  "description": "Node.js Express REST API boilerplate with JWT Authentication and support for MySQL and PostgreSQL.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MarkKhramko/nodejs-express-jwt.git"
+  },
+  "homepage": "https://github.com/MarkKhramko/nodejs-express-jwt#readme",
+  "bugs": {
+    "url": "https://github.com/MarkKhramko/nodejs-express-jwt/issues"
+  },
+  "scripts": {
+    "start": "node app/app.js",
+    "db:migrate": "node migrator/start.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "sequelize": "^6.29.0",
+    "mysql2": "^3.2.0",
+    "socket.io": "^4.6.0",
+    "jsonwebtoken": "^9.0.0",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.10.0",
+    "cross-env": "^7.0.3",
+    "eslint": "^9.10.0",
+    "globals": "^15.9.0",
+    "nodemon": "^3.1.5"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
