@@ -1,0 +1,43 @@
+{
+	"name": "AIGA-academy-application",
+	"version": "1.0.2",
+	"author": "Nurlan Aligaziz <aligaziznu@gmail.com>",
+	"license": "MIT",
+	"scripts": {
+		"scripts": {
+  "start": "node app/app.js",
+  "db:migrate": "node migrator/start.js",
+  "lint": "eslint",
+  "lint:fix": "eslint --fix ."
+	},
+	"dependencies": {
+		"bcrypt": "^5.0.0",
+		"body-parser": "^1.20.1",
+		"core-js": "^2.6.11",
+		"cors": "^2.8.5",
+		"dotenv": "^8.2.0",
+		"express": "^4.18.2",
+		"express-routes-mapper": "^1.0.2",
+		"helmet": "^3.22.0",
+		"jsonwebtoken": "^9.0.0",
+		"mysql2": "^3.11.3",
+		"pug": "^3.0.1",
+		"sequelize": "^6.37.3"
+	},
+	"devDependencies": {
+		"@eslint/js": "^9.10.0",
+		"cross-env": "^7.0.3",
+		"eslint": "^9.10.0",
+		"globals": "^15.9.0",
+		"nodemon": "^3.1.5"
+	},
+	"description": "Node.js Express REST API boilerplate with JWT Authentication and support for MySQL and PostgreSQL.",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/MarkKhramko/nodejs-express-jwt.git"
+	},
+	"homepage": "https://github.com/MarkKhramko/nodejs-express-jwt#readme",
+	"bugs": {
+		"url": "https://github.com/MarkKhramko/nodejs-express-jwt/issues"
+	}
+}
